@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Myriam Milha</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header>
+    <h1>Myriam MILHA</h1>
+    <nav>
+      <a href="#master2">Master 2</a>
+      <a href="#master1">Master 1</a>
+      <a href="#licence">Licence</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Bienvenue sur mon portfolio</h2>
+    <p>
+      Étudiante en Master 2 Informatique (Programmation, Sûreté et Sécurité) à l’Université Sorbonne Paris Nord,<br>
+      je suis actuellement à la recherche d’un stage de 4 à 6 mois à partir d’avril/mai 2025.<br>
+      Curieuse, motivée et polyvalente, je souhaite mettre mes compétences au service d’une équipe dynamique et contribuer activement à des projets concrets et innovants.
+    </p>
+  </section>
+
+  <section id="master2">
+    <h2>Projets réalisés en Master 2</h2>
+    <div class="grid">
+      
+      <div class="card">  
+        <h3>API REST Fullstack</h3>
+        <div class="LF">
+          <p><strong>Langages :</strong>
+            <ul class="rapetissir" style="list-style-type: none;">
+              <li><B>🔹JavaScript</B> : langage principal (frontend & backend).</li>
+              <li><B>🔹TypeScript</B> : utilisé dans la configuration (nuxt.config.ts).</li>
+              <li><B>🔹CSS</B> : pour le style de l'application.</li>
+              <li><B>🔹HTML</B> : fichiers manipulés (recherche, affichage, téléchargement).</li>
+            </ul>
+          </p>
+          <p><strong>Frameworks :</strong>
+          <ul class="rapetissir" style="list-style-type: none;">  
+            <li><B>🔹Nuxt 3</B> : framework basé sur Vue.js pour le frontend.</li>
+            <li><B>🔹Vue.js 3</B> : bibliothèque JavaScript pour construire l’interface utilisateur.</li>
+            <li><B>🔹Node.js</B> : environnement d’exécution JavaScript côté serveur.</li>
+            <li><B>🔹Express.js</B> : framework minimaliste pour créer l’API backend.</li>
+            <li><B>🔹Jest</B> : framework de test pour vérifier les fonctionnalités.</li>
+            <li><B>🔹Supertest</B> : outil pour tester les routes de l’API.</li>
+            <li><B>🔹GitLab CI/CD</B> : pour automatiser tests et déploiement.</li>
+            <li><B>🔹ESLint, Babel</B> : outils de développement (linting, transpilation = conversion du code écrit dans un langage (ou version) en un autre langage (ou version)).</li>
+          </ul>
+          </p>
+        </div>
+        <p>
+          <ul class="hidden">
+            <li>Développement d’une application web avec Nuxt 3 permettant de rechercher, afficher et télécharger dynamiquement des fichiers HTML stockés sur un serveur Express.js, avec gestion des erreurs, tests automatisés et intégration continue via GitLab.</li>
+            <ol>  
+              <li><B>API Server</B> – Gestion des services backend et stockage des données.</li>
+              <li><B>Web Server</B> – Serveur web pour la distribution des applications.</li>
+              <li><B>Web App</B> – Application web dynamique et interactive.</li>
+              <li><B>Desktop App</B> – Application de bureau développée avec Electron.</li>
+              <li><B>Jsau-webhybrid-nuxt App</B> – Application hybride web/mobile basée sur Nuxt 3, combinant frontend réactif et accès à des fonctionnalités natives via une interface simplifiée.</code>.</li>
+            </ol>
+            <li>Gestion de paquets NPM privés pour factorisation et réutilisation de code.</li>
+            <li>Architecture logicielle & DevOps : configuration serveurs, dépendances et stockage.</li>
+          </ul>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Jeu Bataille Navale (Equipe Front-End)</h3>
+        <div class="LF">
+          <p>
+            <strong>Langages et Frameworks :</strong>
+            <ul class="rapetissir" style="list-style-type: none;">
+              <li><B>Front-end :</B></li>
+              <ul style="list-style-type: none;">
+                <li><B>🔹JavaScript (avec React.js)</B> : pour créer l’interface utilisateur interactive.</li>
+                <li><B>🔹CSS3</B> : pour le style et les animations visuelles.</li>
+              </ul>
+              <li><B>Back-end :</B></li>
+              <ul style="list-style-type: none;">
+                <li><B>🔹Kotlin</B> : pour coder la logique du jeu côté serveur.</li>
+                <li><B>🔹SpringBoot</B> : framework utilisé avec Kotlin pour créer l’API REST.</li>
+              </ul>
+            </ul>
+          </p>
+        </div>
+        <p>
+          <ul class="hidden">
+            <li>Développement d’une interface front-end interactive et immersive pour un jeu de bataille navale, jouable en solo ou en 1v1 en ligne. 
+            <br>Le front-end, réalisé en React.js, intègre des animations, un brouillard de guerre, un système de score en temps réel, ainsi que des interactions avec une API back-end (en Kotlin/SpringBoot).</li>
+            <li>Conception de l’interface sur Canva, intégration avec React et animations dynamiques.</li>
+            <li>Drag-and-drop avec React-DnD, effets sonores interactifs via useSound.</li>
+            <li>Communication avec le backend en Spring Boot via API asynchrones (ES6).</li>
+            <li>Gestion collaborative du code avec Git.</li>
+          </ul>
+          <ul class="hidden" style="list-style-type: none;">
+            <em>
+              <li>- Le front-end (interface utilisateur) envoie la demande au back-end (logique métier) via une requête HTTP.</li>
+              <li>– Le back-end reçoit la demande et décide :</li>
+              <ol>
+                <li>Est-ce que l'action est possible ?</li>
+                  <li>Est-ce que l’attaque touche un bateau ?</li>
+                  <li>Est-ce que le joueur peut encore jouer ?</li>
+                  <li>Est-ce que la partie est finie ?</li>
+              </ol>
+              <li>– Le back-end met à jour l’état du jeu.</li>
+              <li>– Le back-end il renvoie une réponse au front-end.</li>
+              <strong>
+              <ol>
+                <li>Front-end → action utilisateur</li>
+                <li>Back-end → décision, règles, mise à jour</li>
+                <li>Front-end → affichage des résultats</li>
+              </ol>
+              </strong>
+            </em>
+          </ul>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Vérificateur de formules CTL</h3>
+        <p class="LF">
+          <strong>Langage : </strong><B>🔹Java</B><br>
+        </p>
+        <p>
+          <ul class="hidden">
+            <li>Développement d’un logiciel de model checking pour vérifier des formules CTL (.ctl) sur des automates finis (.dot) en entrée.</li>
+            <li><B>Compilation :</B> <em>javac -d out/production/untitled src/main/java/org/example/*.java</em></li>
+            <li><B>Exécution :</B> <em>java -cp out/production/untitled org.example.Main automate.dot formule.ctl</em></li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="master1">
+    <h2>Projets réalisés en Master 1</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Réseau Social en Java</h3>
+        <p class="LF">
+          <strong>Langage : </strong><B>🔹Java</B>
+          <ul class="hidden">
+            <li>Conception d’un système distribué modélisant des interactions sociales à travers des modèles d’opinion dynamiques.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Gestion de bibliothèque</h3>
+        <p class="LF">
+          <strong>Langages : </strong><B>🔹HTML,🔹CSS,🔹JavaScript,🔹PHP,🔹MySQL</B>
+          <ul class="hidden">
+            <li>Développement d’un site web de gestion de bibliothèque avec interface utilisateur complète et base de données.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Visualisation sur "La pollution aérienne aux abords des écoles et crèches en île-de-France” sur un poster</h3>
+        <p class="LF">
+          <strong>Langage : </strong><B>🔹Python</B>
+          <ul class="hidden">
+            <li>Analyse et visualisation de données sur la pollution aérienne autour des établissements scolaires d’Île-de-France (2012-2017).</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="licence">
+    <h2>Projets réalisés en Licence</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>City Mapper</h3>
+        <p class="LF">
+          <strong>Langages : </strong><B>🔹Python,🔹SQL</B>
+          <ul class="hidden">
+            <li>Application de transport public avec gestion de base de données PostgreSQL.</li>
+            <li>Conception d'une application pour les transports en commun qui utilise une base de données postgreSQL pour gérer toutes les données.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Wordle Client/Serveur</h3>
+        <p class="LF">
+          <strong>Langage : </strong><B>🔹C</B>
+          <ul class="hidden">
+            <li>Jeu Wordle en réseau utilisant sockets, gestion multi-clients via threads.</li>
+            <li>Utilisation des sockets et des fonctions réseaux entre client serveur.</li>
+            <li>Traitement de plusieurs clients par des threads. </li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Solveur Booléen</h3>
+        <p class="LF">
+          <strong>Langage : </strong><B>🔹OCaml</B>
+          <ul class="hidden">
+            <li>Résolution de systèmes d’équations booléennes.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Robot Trieur</h3>
+        <p class="LF">
+          <strong>Langage :</strong><B>🔹C</B>
+          <ul class="hidden">
+            <li>Simulation de tri robotisé à l’aide de structures de données AVL.</li>
+            <li>Utilisation des AVL et des structures données pour déplacement du robot.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Jeu ISOLA</h3>
+        <p class="LF">
+          <strong>Langages :</strong><B>🔹HTML,🔹CSS,🔹JavaScript</B>
+          <ul class="hidden">
+            <li>Jeu de stratégie combinatoire abstrait entre 2 joueurs.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Recherche de villes</h3>
+        <p class="LF">
+          <strong>Langage :</strong><B>🔹C</B>
+          <ul class="hidden">
+            <li>Recherche géographique via arbres binaires (altitudes, longitudes).</li>
+            <li>Utilisation des arbres binaires et de recherche pour chercher des 
+              villes avec l’affichage de leurs longitudes et altitudes </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 myriammilha.pro@outlook.fr</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Myriam Milha</p>
+  </footer>
+</body>
+</html>
